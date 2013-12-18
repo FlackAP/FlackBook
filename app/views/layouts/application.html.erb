@@ -7,8 +7,23 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+	<nav role="navigation" class="navbar-fixed-top">
+		<div class="navbar-inner">
+			<div class="container">
+				<a class="navbar-brand" href="#">FlackBook</a>
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+      					<li><%= link_to "View All Messages", statuses_path %></li>
+    				</ul>
+				</div>
+			</div>
+		</div>
+	</div>
 
-<%= yield %>
-
+	<div class="container">
+		
+		<%= yield %>
+	
+	</nav>
 </body>
 </html>
