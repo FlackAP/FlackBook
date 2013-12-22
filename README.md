@@ -1,4 +1,3 @@
-
 FlackBook
 =========
 
@@ -7,6 +6,9 @@ understanding of how rails works.
 
 ##Flackbook utilizes the following languages and libraries
 -Ruby on Rails
+
 -jQuery
+
 -Bootstrap with Sass
+
 -Devise (for password/user authentication)
